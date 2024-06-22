@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #2c3e50;
     margin: 0;
@@ -100,4 +101,108 @@ body {
 }
 .task-table button:hover {
     background-color: #2980b9;
+=======
+body {
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+.menu { /*altera o*/
+    background-color: #2c3e50;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu h2, .menu p, {
+    text-align: center;
+}
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+.menu ul li {
+    margin: 10px 0;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.menu ul li a:hover {
+    color: #3498db;
+}
+.menu img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.content {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    blackgroud-color: #fff;
+}
+.container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    max-width: 1200%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.919);
+    border-radius: 5px; 
+}
+.task-tables {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+.task-tables h2 {
+    margin-bottom: 10px;
+}
+.task-list {
+    padding-left: 20px;
+    margin-top: 0;
+}
+.task-list li {
+    margin-bottom: 5px;
+}
+/* dividido tarefas */
+.task-table { 
+    width: 48%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+.task-table ol {
+    padding-left: 20px;
+}
+.task-table input, .task-table button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.2, color 0.2;
+    border-radius: 4px;
+}
+.task-table button:hover {
+    background-color: #2980b9;
+>>>>>>> efee96b357596373566b7fff0e176b0fb6870375
 }
